@@ -15,7 +15,7 @@ background-color: #F2F2F2;
 <?php 
 if(isset($_REQUEST['input'])) {
 $name = $_REQUEST['input'];
-$output = shell_exec("/home/loghgxli/public_html/instapic.sh $name");
+$output = shell_exec("/instapic.sh $name");
 }
 ?>
 <form action="" method="get">
